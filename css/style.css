@@ -87,6 +87,18 @@
   width: 98.2% !important;
 }
 
+.fixx {
+  z-index: 10000;
+}
+
+.fixx--hidden {
+  display: none !important;
+  -webkit-transform: translateY(calc(-1 * var(--nav-height)));
+          transform: translateY(calc(-1 * var(--nav-height)));
+  background: red;
+  z-index: 990000;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -290,5 +302,78 @@
 
 .fa-window-close {
   margin-left: 190px;
+}
+
+.aab {
+  width: 100% !important;
+}
+
+.fixx--hidden {
+  -webkit-transform: translateY(calc(-1 * var(--nav-height)));
+          transform: translateY(calc(-1 * var(--nav-height)));
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.fixx {
+  width: 100%;
+  height: var(--nav-height);
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #009578;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.bodyy {
+  --nav-height: 50px;
+  padding-top: var(--nav-height);
+}
+
+.nav {
+  width: 100%;
+  height: var(--nav-height);
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #009578;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  z-index: 9000;
+}
+
+.nav--hidden {
+  -webkit-transform: translateY(calc(-1 * var(--nav-height)));
+          transform: translateY(calc(-1 * var(--nav-height)));
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.nav__link {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 1em;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

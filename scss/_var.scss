@@ -121,5 +121,16 @@ margin-top: 20px;
     width: 98.2% !important;
  }
 
- 
+.fixx
+{   
+z-index: 10000;
+}
+
+.fixx--hidden
+{
+    display: none !important;
+    transform: translateY(calc(-1 * var(--nav-height)));
+    background: red;
+    z-index: 990000;
+}
   
