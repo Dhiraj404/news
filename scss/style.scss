@@ -1,0 +1,264 @@
+@import "var";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.stick
+{
+    position: fixed;
+    top: 0;
+}
+
+.navbar-brand
+{
+    img
+    {
+        width: 50px;
+    }
+    }
+
+    .dropdown-toggle
+    {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+
+    .headera
+    {
+        z-index: 1;
+        bottom: 80px;
+        left: 17px;
+        background: #33485E;
+        color: white;
+        opacity: 0.95;
+
+        .a 
+        {  
+            padding:20px;
+        }
+    }
+
+    .b
+    {
+        margin-left: 184px;
+        margin-top: -48px;
+    }
+
+.aa 
+{
+    margin-right: 163px;
+    margin-top: 27px;
+}
+.aaa 
+{
+    margin-right: 163px;
+    margin-left: -12px;
+}
+.hehe
+{
+    a  
+    {
+        text-decoration: none;
+        h5 
+        {
+            width: 300px;
+         
+            text-align: center;
+            color:black;
+        }
+    }
+}
+
+.ite 
+{
+    margin-left: 39%;
+
+
+    span 
+    {
+        font-size:10px;
+        // border: 1px solid blue;
+        display: inline-block;
+        text-align: center;
+        vertical-align: 2px;
+        line-height: 23px;
+        padding: 0 0 0 0;
+        height: 23px;
+        min-width: 24px;
+        border-radius: 50%;
+        background: #9B59B6;
+        color: white;
+
+    }
+
+}
+
+.pp
+{
+    background: #F2F2F2;
+    
+
+
+//     p
+
+// {
+//     max-width: 50%;
+//     margin-left: 307px;
+//     margin-top: 24px;
+//     margin-bottom: 20px;
+
+// }
+}
+
+
+// Animation boi ?
+
+.class {
+    height: 230px;
+    width: 290px;
+    background: #000;
+    margin: auto;
+    position: relative;
+    // border: 2px solid red;
+    overflow: hidden;
+    margin-left: 1px;
+
+img {
+    height: 100%;
+    width: 100%;
+    transition: 0.9s;
+
+}
+
+&:hover img {
+    transform: scale(1.2);
+}
+h2 {
+   position: absolute;
+   top: 0;
+   color: white;
+   transform: translate(-400px, 40px);
+   transition: 0.9s;
+}
+&:hover h2 {
+    transform: translate(30px, 40px);
+}
+
+h2 
+{
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}}
+
+}
+
+
+.fontt
+{
+    font-family: 'Dancing Script', cursive;
+}
+
+.asd
+{
+    padding: 10px 0 0 -220px;
+
+}
+.hea
+{
+    margin-left: -177px;
+    margin-top: 47px;
+    font-size: 12px;
+    h6
+    {
+            font-size: 12px;
+    }
+
+}
+
+.fashion 
+{
+    p  
+    {
+        color: #9E65BE;
+        margin-top: 13px;
+    }
+
+    h5
+    {
+        margin-top: -5px;
+    }
+    .breadcrumb {
+        font-size: 11px;
+
+    }
+
+
+    .fw-light
+    {
+        color: rgb(0, 0, 0);
+        font-size: 12px;
+
+    }
+
+}
+
+.omg
+{
+    background: #33485E;
+}
+
+.view
+{
+    h6  
+    {
+        text-transform: uppercase;
+        color: white;
+    }
+    p
+    {
+        font-size: 13px;
+        font-weight: bold;
+
+    }
+    .these
+    {
+
+        color: #CACFD4;
+    }
+    .aq
+    {
+        line-height: 0.2;
+        color: rgb(160, 148, 148);
+        font-size: 9px;
+    }
+}
+
+.asas {
+    margin-left: -24px;
+}
+
+
+.hehe
+{
+    margin-left: -20px;
+}
+
+.okxa
+{
+    padding-right: 128px
+}
+
+@media only screen and (max-width: 540px){
+
+    .b
+    {
+        margin-left: 24px;
+    }
+    
+}

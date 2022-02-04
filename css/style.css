@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.hapak {
+  margin-left: 127px;
+}
+
+.nig .latest1 {
+  font-size: 11px;
+  color: purple;
+}
+
+.nig ol {
+  font-size: 10px;
+  padding-left: 7px;
+}
+
+.nig .latest {
+  font-size: 0.8em;
+}
+
+.olulu span {
+  border-radius: 50%;
+  background: #9B59B6;
+  display: inline-block;
+  color: white;
+  min-width: 24px;
+  text-align: center;
+  line-height: 26px;
+}
+
+.olulu a {
+  font-size: 12px;
+  vertical-align: 8px;
+  margin-top: 20px;
+}
+
+.olulu a:hover span {
+  margin-right: 5px;
+}
+
+.asaq p {
+  font-size: 12px;
+}
+
+.asaq button {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  margin-left: 20px;
+}
+
+.oho p {
+  font-size: 12px;
+  color: grey;
+}
+
+.oho ol {
+  font-size: 12px;
+}
+
+.oho ol a {
+  text-decoration: none;
+}
+
+.heheaq {
+  z-index: 1111;
+  bottom: 25px;
+  left: 0.2px;
+}
+
+.jq {
+  width: 15em;
+}
+
+.jq p {
+  font-size: 12px;
+}
+
+.ala {
+  width: 195px;
+  height: 60px;
+}
+
+.ooa {
+  margin-top: -40px !important;
+}
+
+.oho {
+  width: 98.2% !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.stick {
+  position: fixed;
+  top: 0;
+}
+
+.navbar-brand img {
+  width: 50px;
+}
+
+.dropdown-toggle {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.headera {
+  z-index: 1;
+  bottom: 80px;
+  left: 17px;
+  background: #33485E;
+  color: white;
+  opacity: 0.95;
+}
+
+.headera .a {
+  padding: 20px;
+}
+
+.b {
+  margin-left: 184px;
+  margin-top: -48px;
+}
+
+.aa {
+  margin-right: 163px;
+  margin-top: 27px;
+}
+
+.aaa {
+  margin-right: 163px;
+  margin-left: -12px;
+}
+
+.hehe a {
+  text-decoration: none;
+}
+
+.hehe a h5 {
+  width: 300px;
+  text-align: center;
+  color: black;
+}
+
+.ite {
+  margin-left: 39%;
+}
+
+.ite span {
+  font-size: 10px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: 2px;
+  line-height: 23px;
+  padding: 0 0 0 0;
+  height: 23px;
+  min-width: 24px;
+  border-radius: 50%;
+  background: #9B59B6;
+  color: white;
+}
+
+.pp {
+  background: #F2F2F2;
+}
+
+.class {
+  height: 230px;
+  width: 290px;
+  background: #000;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  margin-left: 1px;
+}
+
+.class img {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.class:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.class h2 {
+  position: absolute;
+  top: 0;
+  color: white;
+  -webkit-transform: translate(-400px, 40px);
+          transform: translate(-400px, 40px);
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.class:hover h2 {
+  -webkit-transform: translate(30px, 40px);
+          transform: translate(30px, 40px);
+}
+
+.class h2 a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.fontt {
+  font-family: 'Dancing Script', cursive;
+}
+
+.asd {
+  padding: 10px 0 0 -220px;
+}
+
+.hea {
+  margin-left: -177px;
+  margin-top: 47px;
+  font-size: 12px;
+}
+
+.hea h6 {
+  font-size: 12px;
+}
+
+.fashion p {
+  color: #9E65BE;
+  margin-top: 13px;
+}
+
+.fashion h5 {
+  margin-top: -5px;
+}
+
+.fashion .breadcrumb {
+  font-size: 11px;
+}
+
+.fashion .fw-light {
+  color: black;
+  font-size: 12px;
+}
+
+.omg {
+  background: #33485E;
+}
+
+.view h6 {
+  text-transform: uppercase;
+  color: white;
+}
+
+.view p {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.view .these {
+  color: #CACFD4;
+}
+
+.view .aq {
+  line-height: 0.2;
+  color: #a09494;
+  font-size: 9px;
+}
+
+.asas {
+  margin-left: -24px;
+}
+
+.hehe {
+  margin-left: -20px;
+}
+
+.okxa {
+  padding-right: 128px;
+}
+
+@media only screen and (max-width: 540px) {
+  .b {
+    margin-left: 24px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
