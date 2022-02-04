@@ -126,10 +126,21 @@
   color: white;
 }
 
-.lastho {
+.arm {
+  display: none;
+}
+
+.disarmed .arm {
+  display: inline;
+}
+
+.disarmed .disarm {
+  display: none;
+}
+
+.kk {
   border: none;
-  background: none;
-  margin-right: 90px;
+  background: #F8F9FA;
 }
 
 * {

@@ -166,7 +166,15 @@
           <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
-        <button onclick="myFunction()" class="lastho"> <i class="fa fa-power-off" aria-hidden="true" class="lasthoo"></i> dark </button>
+       
+
+        <form name="armdisarmform" action="/cameras" method="POST" class="las">
+          <input type='hidden' name='armdisarmvalue' value="ENABLED"/>
+          <button onclick="myFunction()" class="armdisarm kk" name="armdisarmbutton">
+              <span class="disarm"> <i class="fa fa-power-off" aria-hidden="true"> ON</i> </span>
+              <span class="arm"><i class="fa fa-power-off" aria-hidden="true"> OFF</i></span>
+          </button>
+      </form>
       </div>
     </div>
   </nav>
@@ -655,6 +663,24 @@
 
 
 <script src="js/mode.js"></script>
+
+<script>
+  $(function() {
+    $(".armdisarm").button({
+        icons: {
+            primary: "ui-icon-locked"
+        }
+    });
+
+    $("body").on('click', ".armdisarm", function() {
+        $(this).toggleClass('disarmed')
+            .find('.ui-button-icon-primary')
+            .toggleClass("ui-icon-locked ui-icon-unlocked");
+        return false;
+    });
+    
+});
+</script>
 </body>
 
 </html>

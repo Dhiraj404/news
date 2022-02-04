@@ -162,10 +162,22 @@ margin-top: 20px;
   }
 
 
-  .lastho
-  {
-      border:none;
-      background: none;
-      margin-right: 90px;
-  }
+ 
 
+
+  .arm {
+    display: none;   
+    
+ }
+ .disarmed .arm {
+    display: inline;   
+ }
+ .disarmed .disarm {
+    display: none;   
+ }
+ .kk
+ {
+     border: none;
+     background: #F8F9FA;
+ }
+ 
