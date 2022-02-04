@@ -662,11 +662,9 @@ $('.fa-cog').ready(function() {
     $('#slide').hide();
     $('.fa-cog').on('click', function() {
       $('#slide').slideToggle();
-      $('.fa-cog').accordion({
-        icons: {
-          header: "ui-icon-circle-arrow-e",
-        }
-      })
+
+      $('.fa-cog').toggleClass('fa-spin fa-window-close').css('margin-left',190);
+      
 
     });
 })
