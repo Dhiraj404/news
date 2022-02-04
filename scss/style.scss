@@ -69,7 +69,7 @@
             width: 300px;
          
             text-align: center;
-            color:black;
+            // color:black;
         }
     }
 }
@@ -101,7 +101,7 @@
 .pp
 {
     background: #F2F2F2;
-    
+    color: #009efa;
 
 
 //     p
@@ -270,30 +270,14 @@ a{
 }
 .aab
 {
-    width:100% !important;
+    width:103% !important;
+    margin-top: 74px;
+    margin-left: -23.6px;
 }
 
 
 
-.fixx--hidden{
-    transform: translateY(calc(-1 * var(--nav-height)));
-    box-shadow: none;
-    
-}
 
-.fixx {
-    width: 100%;
-    height: var(--nav-height);
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #009578;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s;
-    // z-index: 2009;
-  }
 
 
 

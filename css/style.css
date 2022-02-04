@@ -47,6 +47,10 @@
   margin-left: 20px;
 }
 
+.oho {
+  width: 100%;
+}
+
 .oho p {
   font-size: 12px;
   color: grey;
@@ -83,20 +87,49 @@
   margin-top: -40px !important;
 }
 
-.oho {
-  width: 98.2% !important;
-}
-
-.fixx {
-  z-index: 10000;
-}
-
 .fixx--hidden {
   display: none !important;
   -webkit-transform: translateY(calc(-1 * var(--nav-height)));
           transform: translateY(calc(-1 * var(--nav-height)));
   background: red;
   z-index: 990000;
+}
+
+.fixx {
+  width: 99.5%;
+  height: var(--nav-height);
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #009578;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  z-index: 2009;
+}
+
+.okcata {
+  background-size: cover;
+}
+
+.dark-mode {
+  background-color: #292626;
+  color: white;
+}
+
+.lastho {
+  border: none;
+  background: none;
+  margin-right: 90px;
 }
 
 * {
@@ -155,7 +188,6 @@
 .hehe a h5 {
   width: 300px;
   text-align: center;
-  color: black;
 }
 
 .ite {
@@ -178,6 +210,7 @@
 
 .pp {
   background: #F2F2F2;
+  color: #009efa;
 }
 
 .class {
@@ -305,35 +338,9 @@
 }
 
 .aab {
-  width: 100% !important;
-}
-
-.fixx--hidden {
-  -webkit-transform: translateY(calc(-1 * var(--nav-height)));
-          transform: translateY(calc(-1 * var(--nav-height)));
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.fixx {
-  width: 100%;
-  height: var(--nav-height);
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: #009578;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  -webkit-transition: -webkit-transform 0.2s;
-  transition: -webkit-transform 0.2s;
-  transition: transform 0.2s;
-  transition: transform 0.2s, -webkit-transform 0.2s;
+  width: 103% !important;
+  margin-top: 74px;
+  margin-left: -23.6px;
 }
 
 .bodyy {

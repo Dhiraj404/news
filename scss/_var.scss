@@ -69,6 +69,7 @@ margin-top: 20px;
 
 .oho
 {
+    width: 100% ;
     p
     {
         font-size: 12px;
@@ -116,15 +117,14 @@ margin-top: 20px;
  {
      margin-top: -40px !important;
  }
- .oho
- {
-    width: 98.2% !important;
- }
+ 
 
-.fixx
-{   
-z-index: 10000;
-}
+// .fixx
+// {   
+//     // opacity: 0.9;
+//     width: 98%;
+// z-index: 10000;
+// }
 
 .fixx--hidden
 {
@@ -132,5 +132,40 @@ z-index: 10000;
     transform: translateY(calc(-1 * var(--nav-height)));
     background: red;
     z-index: 990000;
+
 }
   
+.fixx {
+    width: 99.5%;
+    height:var(--nav-height);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #009578;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    z-index: 2009;
+  }
+
+
+
+.okcata
+{
+   background-size: cover;
+}
+.dark-mode {
+    background-color: rgb(41, 38, 38);
+    color: rgb(255, 255, 255);
+   
+  }
+
+
+  .lastho
+  {
+      border:none;
+      background: none;
+      margin-right: 90px;
+  }
+

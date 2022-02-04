@@ -57,8 +57,8 @@
   
   
   
-  <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 fixx" >
-    <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixx" >
+    <div class="container ">
       <a class="navbar-brand" href="#"> <img src="img/logo.png" alt="Sorry"> </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -166,37 +166,37 @@
           <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
+        <button onclick="myFunction()" class="lastho"> <i class="fa fa-power-off" aria-hidden="true" class="lasthoo"></i> dark </button>
       </div>
-     
-
     </div>
   </nav>
 
 
 
   <!-- Carousel  -->
-
+  <header>
+        <div class="container-fluid aab">
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
     <div class="carousel-inner">
       <div class="carousel-item active">
 
-        <iframe width="1439" height="519" src="https://www.youtube.com/embed/GyRIk99toRE" title="YouTube video player"
+        <iframe width="100%" height="519" src="https://www.youtube.com/embed/GyRIk99toRE" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen" class="aab"></iframe>
+          allowfullscreen" ></iframe>
       </div>
       <div class="carousel-item">
-        <iframe width="1439" height="519" src="https://www.youtube.com/embed/lbicNSnF7e0" title="YouTube video player"
+        <iframe width="100%"  height="519" src="https://www.youtube.com/embed/lbicNSnF7e0" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen class="aab"></iframe>
+          allowfullscreen ></iframe>
       </div>
       <div class="carousel-item">
-        <iframe width="1439" height="519" src="https://www.youtube.com/embed/qcQ_xKmuO5w" title="YouTube video player"
+        <iframe width="100%"  height="519" src="https://www.youtube.com/embed/qcQ_xKmuO5w" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen class="aab"></iframe>
+          allowfullscreen></iframe>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -208,7 +208,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-
+</header>
   <!-- position    -->
   <header>
     <div class="container col-lg-12 w-75 position-relative headera">
@@ -331,7 +331,7 @@
       </div>
     </div>
   </div>
-
+</div>
 
   <!-- dksfn;dsfalklfjksdfkdsjk  -->
 
@@ -519,7 +519,7 @@
               <div class="border my-4 p-4 text-left asaq">
                 <h6>SUBMIT YOUR VIDEO</h6>
                 <p>Would you like to share your creativity with the world? Submit your video by clicking on the button below.</p>
-                <button type="button" class="btn-info p-1">Submite Your Video</button>
+                <button type="button" class="btn-info p-1">Submit Your Video</button>
 
               </div>
 
@@ -636,7 +636,12 @@
     </div>
   </footer>
 
-
+  <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
   
   <script src="/js/index.js"></script>
 
@@ -648,6 +653,8 @@
     <script src="js/toogle.js"></script>
 <script src="js/nav.js"></script>
 
+
+<script src="js/mode.js"></script>
 </body>
 
 </html>
